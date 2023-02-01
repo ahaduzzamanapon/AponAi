@@ -238,7 +238,7 @@
 
 
 
-.app {
+#app {
   border-width: 40px; 
   
   padding: 11px;
@@ -394,7 +394,7 @@ form img {
 
     visibility: hidden;
   }
-  .app{
+  #app{
 
  
     border-width: 40px;
@@ -420,7 +420,7 @@ form img {
 
     visibility: hidden;
   }
-  .app{
+  #app{
 
  
     border-width: 40px;
@@ -447,7 +447,7 @@ form img {
 
     visibility: hidden;
   }
-  .app{
+  #app{
 
  
     border-width: 40px; 
@@ -474,7 +474,7 @@ form img {
     visibility: visible;
   }
  
-  .app{
+  #app{
 
  
     border-width: 40px; 
