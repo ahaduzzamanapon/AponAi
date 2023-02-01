@@ -7,15 +7,15 @@ const chatContainer = document.querySelector('#chat_container')
 let loadInterval;
 
 function loader(element) {
-  element.textContent = 'AponAi Thinking'
+  element.textContent = 'AponAi Thinking Please Wait a Second'
 
   loadInterval = setInterval(() => {
       // Update the text content of the loading indicator
       element.textContent += '.';
 
       // If the loading indicator has reached three dots, reset it
-      if (element.textContent === 'AponAi Thinking....') {
-          element.textContent = 'AponAi Thinking';
+      if (element.textContent === 'AponAi Thinking Please Wait a Second....') {
+          element.textContent = 'AponAi Thinking Please Wait a Second';
       }
   }, 300);
 }
