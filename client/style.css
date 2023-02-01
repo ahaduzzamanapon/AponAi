@@ -22,6 +22,8 @@
 
 }
 .bg {
+      
+
   height: 100%;
     margin-left: 214px;
     width: 482px;
@@ -242,8 +244,8 @@
   border-width: 40px; 
   
   padding: 11px;
-  width: 45vw;
-  /* margin-left: 689px; */
+  width: 5vw;
+  
   height: 89vh;
   background-color: rgb(32, 31, 40);
   backdrop-filter: blur(10px);
@@ -251,7 +253,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  margin-left: 22px;
+  margin-left: 522px;
   margin-top:-100px;
  
 }
@@ -473,13 +475,13 @@ form img {
 
     visibility: visible;
   }
- 
+  
   #app{
 
  
     border-width: 40px; 
       
-      width: 43vw;
+      width: 40vw;
       
       height: 91vh;
       background-color: rgb(32, 31, 40);
@@ -488,7 +490,34 @@ form img {
       flex-direction: column;
       align-items: center;
       justify-content: space-between;
-      margin-left: -252px;
+      margin-left: -2px;
+      margin-top: -109px;
+  
+    };
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width:1600px) {
+  .bg{
+
+    visibility: visible;
+  }
+  
+  #app{
+
+ 
+    border-width: 40px; 
+      
+      width: 40vw;
+      
+      height: 91vh;
+      background-color: rgb(32, 31, 40);
+      backdrop-filter: blur(10px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      margin-left: -2px;
       margin-top: -109px;
   
     };
